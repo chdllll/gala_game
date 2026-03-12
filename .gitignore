@@ -1,0 +1,16 @@
+.mypy_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.db
+*.log
+bin/
+build/
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+*.egg-info/
+dist/
+github/
