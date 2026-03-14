@@ -7,6 +7,8 @@ import os
 import sys
 import traceback
 
+os.environ['CHARSET_NORMALIZER_FORCE_PYTHON'] = '1'
+
 def is_android():
     return 'ANDROID_ARGUMENT' in os.environ or 'ANDROID_ROOT' in os.environ
 
